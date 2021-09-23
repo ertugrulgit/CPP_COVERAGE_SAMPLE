@@ -8,6 +8,7 @@ Complex::Complex(double _real, double _imaginary) {
 
 Complex::Complex(const Complex& rhs) {
 	this->real = rhs.real;
+	// EA
 	this->imaginary = rhs.imaginary;
 }
 
